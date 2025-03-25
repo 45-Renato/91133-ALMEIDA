@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEU LAYOUT SIMPLES</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        header {
+            background: #00eeff;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            border-bottom: 3px solid #002fff;
+        }
+        .layout {
+            display: flex;
+            flex: 1;
+        }
+        nav {
+            background: #0056b3;
+            width: 250px;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            margin-bottom: 15px;
+        }
+        nav ul li a {
+            display: block;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        nav ul li a:hover {
+            background: #004494;
+        }
+        .container {
+            flex: 1;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: center;
+        }
+        h2 {
+            color: #d9534f;
+        }
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        BRASIL X ARGENTINA
+    </header>
+
+    <div class="layout">
+        <nav>
+            <ul>
+                <li><a href="#home">Menu</a></li>
+                <li><a href="#jogos">Próximos Jogos</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <h2>Notícias Quentes!</h2>
+            <p>Brasil enfrentará a Argentina nesta terça-feira à noite, às 21:00 horas.</p>
+        </div>
+    </div>
+
+</body>
+</html>
