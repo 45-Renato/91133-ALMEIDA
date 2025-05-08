@@ -3,39 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="style2.css" rel="stylesheet">
   <title>Contato - Barcelona FC</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="sobre.html">Sobre Equipe</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-    </nav>
+<body class="bg-yellow-100 text-gray-800">
+
+  <!-- Header com azul Barcelona -->
+  <header class="bg-[#004D98] text-white">
+    <div class="container mx-auto p-4 text-center">
+      <h1 class="text-2xl font-bold">Barcelona FC</h1>
+    </div>
   </header>
 
-  <main>
-    <section class="contato">
-      <h2>Fale Conosco:</h2>
-      <form action="#" method="post">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required>
+  <!-- Formulário principal -->
+  <main class="container mx-auto mt-10 px-4">
+    <section class="bg-white rounded-lg shadow-md max-w-2xl mx-auto p-6">
+      <h2 class="text-2xl font-bold text-[#A50044] mb-6">Fale Conosco:</h2>
+      <form action="#" method="post" class="space-y-4">
+        <div>
+          <label for="nome" class="block mb-1 font-medium text-[#004D98]">Nome:</label>
+          <input type="text" id="nome" name="nome" required
+                 class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#A50044]">
+        </div>
 
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
+        <div>
+          <label for="email" class="block mb-1 font-medium text-[#004D98]">E-mail:</label>
+          <input type="email" id="email" name="email" required
+                 class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#A50044]">
+        </div>
 
-        <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+        <div>
+          <label for="mensagem" class="block mb-1 font-medium text-[#004D98]">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="5" required
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#A50044]"></textarea>
+        </div>
 
-        <button type="submit">Enviar</button>
+        <button type="submit"
+                class="bg-[#A50044] text-white px-6 py-2 rounded-md hover:bg-[#8e0037] transition-colors">
+          Enviar
+        </button>
       </form>
     </section>
   </main>
 
-  <footer>
+  <!-- Rodapé -->
+  <footer class="bg-[#004D98] text-white text-center py-4 mt-10">
     <p>&copy; 2025 Barcelona FC. Todos os direitos reservados.</p>
   </footer>
 </body>

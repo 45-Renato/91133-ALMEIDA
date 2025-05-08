@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@
     line-height: 1.6;
   }
   
-  /* Cabeçalho */
+
   header {
     background-color: #000877;
     padding: 15px 0;
@@ -39,7 +39,7 @@
     background-color: #420000;
   }
   
-  /* Seções principais */
+  
   main {
     padding: 40px 20px;
     max-width: 1000px;
