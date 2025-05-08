@@ -1,0 +1,114 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 0 20px;
+  }
+  
+  /* Cabeçalho e navegação */
+  header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Seções principais */
+  main {
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #003366;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Tabela de parceiros */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Formulário de contato */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #0055aa;
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    background-color: #003366;
+    color: #fff;
+  }
+  
