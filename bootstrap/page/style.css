@@ -1,0 +1,82 @@
+  
+  body {
+    background-color: #212529;  /* Cor de fundo escura */
+    color: #f8f9fa;  /* Cor de texto clara */
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    border-radius: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+  }
+nav a{
+  width: 50;
+}
+
+  .navbar-brand {
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .navbar .form-control {
+    width: 250px;
+    margin-right: 10px;
+  }
+
+  .navbar .btn-outline-success {
+    border-color: #28a745;
+    color: #28a745;
+  }
+
+  .navbar .btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+  }
+
+  .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-form {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .carousel-item img {
+    object-fit: cover;
+    height: 500px; 
+    width: 100%; /* Para manter a largura responsiva */
+  }
+  
+body.dark-mode {
+  background-color: #212529;  /* Cor de fundo escura */
+  color: #f8f9fa;  /* Cor clara para o texto */
+}
+
+.navbar.dark-mode {
+  background-color: #343a40;  /* Cor escura para a navbar */
+}
+
+.navbar.dark-mode .navbar-brand {
+  color: #f8f9fa;  /* Cor clara para o texto da navbar */
+}
+
+.navbar.dark-mode .form-control {
+  background-color: #495057;  /* Cor escura para o input */
+  color: #f8f9fa;  /* Cor clara para o texto do input */
+  border: 1px solid #6c757d;  /* Borda escura para o input */
+}
+
+.navbar.dark-mode .btn-outline-success {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.navbar.dark-mode .btn-outline-success:hover {
+  background-color: #28a745;
+  color: white;
+}
